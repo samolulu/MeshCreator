@@ -1,6 +1,10 @@
 # UCLA Game Lab
 # Mesh Creator 0.8
 
+##作者目前已不再维护
+##用来生成平坦mesh，需要做一点修改，剔除掉背面和侧面的三角形，去掉islands判断部分的逻辑
+
+
 Create meshes from alpha image textures in Unity. Mesh Creator has editor scripts that use the alpha channel in textures to build a mesh and colliders in your scene. This allows simple creation of art assets without the need for external 3d software.
 
 Major release packages are kept here in the MeshCreator.Packages directory. Those packages may not be compatible with files in the rest of this repo.
