@@ -45,7 +45,7 @@ public class MeshCreatorInspector :  Editor {
 	private bool showColliderInfo = false;
 	private bool showMeshInfo = false;
 	private bool showMaterialInfo = false;
-	private bool showExperimentalInfo = false;
+	private bool showExperimentalInfo = true;
     private bool showToolInfo = false;
 
     // enums for mesh and collider type
