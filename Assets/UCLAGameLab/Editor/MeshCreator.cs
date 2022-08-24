@@ -950,7 +950,7 @@ public class MeshCreator : UnityEngine.Object {
 					completeUVs.Add(v);
 				}
 				foreach(int i in allIndices) {
-					completeIndices.Add(i);
+					completeIndices.Add(i+indicesOffset);
 				}
 				
 				verticesOffset += vertices.Length;
